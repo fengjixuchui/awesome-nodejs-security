@@ -31,6 +31,7 @@ A curated list of awesome Node.js Security resources.
   - [Articles](#articles)
   - [Research Papers](#research-papers)
   - [Books](#books)
+  - [Roadmaps](#roadmap)
 - [Companies](#companies)
 
 # Tools
@@ -126,6 +127,7 @@ The following is a list of known protestware spanning across other ecosystems to
 - [PyPI package author of atomicwrites deletes his own code](https://www.bleepingcomputer.com/news/security/pypi-mandates-2fa-for-critical-projects-developer-pushes-back/) 
 - [left-pad](https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code/)
 - `event-source-polyfill`, Mariusz Nowak and their `es5-ext`, Evan Jacobs and their `styled-components`, [node-ipc](https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/), `peacenotwar`, [nestjs-pino](https://socket.dev/npm/package/nestjs-pino/files/3.1.1/postinstall.js) - all with regards to the Russian-Ukraine crisis.
+- The [Open Souce Peace](https://github.com/open-source-peace/protestware-list) organization maintains a list of identified protestware incidents.
 
 Articles covering the topics around protestware are:
 - [2022's Techcrunch protestware review](https://techcrunch.com/2022/07/27/protestware-code-sabotage/)
@@ -137,9 +139,12 @@ Collection of security incidents that happened in the Node.js, JavaScript and np
 
 | Date              | Name                                                                                                                                                            | Reference Links                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2022 Jan 29   | Phylum Identifies 137 Malicious npm Packages | [phylum](https://blog.phylum.io/phylum-identifies-98-malicious-npm-packages)
+| 2022 Nov 29   | Invisible npm malware may hide in crafted versions and bypass npm audit's security checks | [JFrog](https://jfrog.com/blog/invisible-npm-malware-evading-security-checks-with-crafted-versions/)
+| 2022 Nov 24   | Phylum team captures captures malicious npm package imagecompress-mini claims to be an image compress tool | [Louisw Lang on Twitter](https://twitter.com/LouiswLang/status/1595835195382534144)
 | 2022 Oct 12   | Aqua security discovers flaw in npm that allows disclosing of privately hosted npm packages on the registry | [Aqua](https://blog.aquasec.com/private-packages-disclosed-via-timing-attack-on-npm) 
 | 2022 Oct 07   | LofyGang Distributed ~200 Malicious NPM Packages to Steal Credit Card Data | [TheHackerNews](https://thehackernews.com/2022/10/lofygang-distributed-200-malicious-npm.html)
-| 2022 Sep 23    |  Popular Cryptocurrency Exchange dYdX Has Had Its NPM Account Hacked | (Mend)[https://www.mend.io/resources/blog/popular-cryptocurrency-exchange-dydx-has-had-its-npm-account-hacked/)
+| 2022 Sep 23    |  Popular Cryptocurrency Exchange dYdX Has Had Its NPM Account Hacked | [Mend](https://www.mend.io/resources/blog/popular-cryptocurrency-exchange-dydx-has-had-its-npm-account-hacked/)
 | 2022 Jul 29    | malicious packages `small-sm`, `pern-valids`, `lifeculer`, and `proc-title` target stealing credit card information and discord tokens | [darkreading](https://www.darkreading.com/risk/malicious-npm-packages-discord-tokens-credit-card)
 | 2022 May 26    | stolen oAuth GitHub tokens lead to npm security breach, compromised user accounts metadata, private packages, and plain-text passwords in logs | [GitHub](https://github.blog/2022-05-26-npm-security-update-oauth-tokens/)
 | 2022 May 24    | malicious npm packages exploiting dependency confusion attacks | [Snyk](https://snyk.io/blog/snyk-200-malicious-npm-packages-cobalt-strike-dependency-confusion-attacks/), [Snyk](https://snyk.io/blog/npm-dependency-confusion-attack-gxm-reference/)
@@ -209,6 +214,9 @@ Follow-up notes:
 - [Web Developer Security Toolbox
 ](https://leanpub.com/b/webdevelopersecuritytoolbox) - Bundled Node.js and Web Security Books.
 - [Thomas Gentilhomme](https://github.com/fraxken) book: [Become a Node.js Developer](https://github.com/fraxken/ebook_nodejs) 
+
+## Roadmaps
+  - [Node.js Developer Roadmap](https://roadmap.sh/nodejs)
 
 # Companies
 - [Snyk](https://snyk.io) - A developer-first solution that automates finding & fixing vulnerabilities in your dependencies.
